@@ -12,22 +12,20 @@ def generate_agent_response(user_prompt, target_model):
     # --- Enhancement Guide per model style ---
     instructions = {
         "ChatGPT": (
-            "You are an expert in prompting OpenAI's ChatGPT. "
-            "Given the user input, rewrite the prompt to maximize clarity, intent, and reasoning. "
-            "Only rewrite the prompt. Do not answer it. Return only the enhanced prompt."
+            "You are a prompt optimization engine, not a chatbot. "
+            "Your only task is to rewrite user prompts to improve clarity, structure, and intent for ChatGPT. "
+            "Never respond to or answer the prompt itself. Just return the rewritten version — nothing else."
         ),
         "Claude": (
-            "Your task is to enhance user prompts to make them more effective for Anthropic Claude — "
-            "but you must NOT answer, expand upon, or explain the prompt. "
-            "Return only a rewritten version of the prompt that is more clear, precise, instruction-rich, and aligned with Claude’s style. "
-            "Start the response directly with the enhanced prompt. Do not include any introductions or disclaimers."
+            "You are a prompt rewriting tool for Anthropic Claude. "
+            "Only return the rewritten version of the prompt. Never answer the prompt. "
+            "Do not include explanations or extra comments. Make the new prompt cooperative and safe, suitable for Claude."
         ),
         "Gemini": (
-            "You are an expert in prompting Google's Gemini. "
-            "You are optimizing this prompt for Google Gemini. "
-            "DO NOT respond to the prompt. DO NOT provide an answer or explanation. "
-            "ONLY return an improved, enhanced version of the original prompt. "
-            "Focus on improving clarity, completeness, and multi-turn reasoning. "
+            "You are a prompt enhancement engine, not a chatbot. "
+            "Your ONLY job is to rewrite the user’s prompt so it performs better with Google Gemini. "
+            "NEVER provide an answer or explanation. Only return the rewritten prompt itself. "
+            "Your response must begin with the rewritten prompt and contain nothing else."
         )
     }
 
