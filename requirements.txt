@@ -1,0 +1,12 @@
+certifi==2025.7.14
+charset-normalizer==3.4.2
+filelock==3.18.0
+fsspec==2025.7.0
+hf-xet==1.1.5
+idna==3.10
+packaging==25.0
+PyYAML==6.0.2
+requests==2.32.4
+tqdm==4.67.1
+typing_extensions==4.14.1
+urllib3==2.5.0
