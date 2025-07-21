@@ -69,6 +69,30 @@
 
 <p align="center">Love the project? Please consider <a href="https://www.paypal.me/anuraghazra">donating</a> to help it improve!</p>
 
-<a href="https://indiafightscorona.giveindia.org">
-  <img src="https://cfstatic.give.do/logo.png" alt="Give india logo" width="200" />
-</a>
+### Environment Setup
+
+```bash
+# 1) Clone the repo
+git clone https://github.com/<YOUR‑USERNAME>/prompt-enhancer.git
+cd prompt-enhancer
+
+# 2) Create & activate a Python virtual environment
+python3 -m venv venv          # Windows:  py -m venv venv
+source venv/bin/activate      # Windows:  venv\Scripts\activate
+
+# 3) Install dependencies (Gradio, google‑generativeai, python‑dotenv, etc.)
+pip install -r requirements.txt
+#  └─ If you don’t use requirements.txt, just do:
+# pip install gradio google-generativeai python-dotenv
+
+# 4) Configure your API key
+cp .env.example .env          # commit .env.example with a placeholder key
+# then edit .env and add:
+#   GOOGLE_API_KEY=sk-xxxxxxxxxxxxxxxx
+
+# 5) Launch the Prompt Enhancer
+python app.py
+# 6) Open your browser ➜ http:....
+
+```
+
