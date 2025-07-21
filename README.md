@@ -1,6 +1,6 @@
 <p align="center">
   <!-- Replace this logo URL with your own if you have one -->
-  <img width="120px" src="https://raw.githubusercontent.com/github/explore/main/topics/prompt-engineering/prompt-engineering.png" alt="Prompt Enhancer logo" />
+  <img width="120px" src="logo.png" alt="Prompt Enhancer logo" />
   <h2 align="center">Prompt Enhancer</h2>
   <p align="center">Fine‑tune your prompts like a pro!</p>
 </p>
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="#-demo">View Demo</a> ·
+  <a href=""demo.png"">View Demo</a> ·
   <a href="https://github.com/YOUR‑USERNAME/prompt-enhancer/issues/new?labels=bug&template=bug_report.md">Report Bug</a> ·
   <a href="https://github.com/YOUR‑USERNAME/prompt-enhancer/issues/new?labels=enhancement&template=feature_request.md">Request Feature</a>
 </p>
