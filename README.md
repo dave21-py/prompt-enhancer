@@ -9,7 +9,6 @@
   <!-- Shields.io badges you may actually want -->
   <img alt="Gradio" src="https://img.shields.io/badge/UI-Gradio%20v5-blue?logo=gradio" />
   <img alt="Gemini API" src="https://img.shields.io/badge/LLM-Google Gemini‑Flash-green?logo=google" />
-  <img alt="License" src="https://img.shields.io/github/license/YOUR‑USERNAME/prompt-enhancer" />
   <img alt="Stars" src="https://img.shields.io/github/stars/YOUR‑USERNAME/prompt-enhancer?style=social" />
 </p>
 
